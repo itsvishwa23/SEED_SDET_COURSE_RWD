@@ -1,0 +1,76 @@
+.bg_ground {
+  background-image: url("pink-flowers-with-petals-yellow-table.jpg");
+  background-size: cover;
+}
+
+.para {
+  text-align: justify;
+  color: rgb(164, 96, 53);
+  text-transform: initial;
+}
+.first-letter {
+  font-size: 35px;
+  line-height: 70px;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-medium:hover {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+span:hover {
+  background-color: cyan;
+}
+
+.mukta-extrabold {
+  font-family: "Mukta", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
