@@ -1,0 +1,32 @@
+.para {
+  font-size: medium;
+  color: Black;
+}
+
+.para:hover {
+  word-spacing: 5px;
+}
+
+.para1:hover {
+  letter-spacing: 10px;
+}
+
+.para2:hover {
+  text-decoration: line-through;
+}
+
+.para3:hover {
+  vertical-align: super;
+}
+
+.para4:hover {
+  text-transform: lowercase;
+}
+
+.para5:hover {
+  text-align: center;
+}
+
+.para6:hover {
+  text-indent: 50px;
+}
