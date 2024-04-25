@@ -1,0 +1,47 @@
+.p1 {
+  font-size: large;
+}
+.p1 {
+  font-size: large;
+}
+.p2 {
+  font-size: large;
+}
+.p3 {
+  font-size: large;
+}
+.p4 {
+  font-size: large;
+}
+
+.p5 {
+  font-size: large;
+}
+
+.p6 {
+  font-size: large;
+}
+
+.p1:hover {
+  cursor: pointer;
+}
+
+.p2:hover {
+  cursor: crosshair;
+}
+
+.p3 {
+  cursor: move;
+}
+
+.p4 {
+  cursor: grab;
+}
+
+.p5:hover {
+  cursor: grabbing;
+}
+
+.p6:hover {
+  cursor: progress;
+}
