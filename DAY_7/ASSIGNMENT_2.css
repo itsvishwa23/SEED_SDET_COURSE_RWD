@@ -1,0 +1,67 @@
+.background {
+  background-image: url(close-up-white-marble-textured-wall.jpg);
+  background-size: cover;
+}
+
+.box1 {
+  background-color: white;
+  height: 920px;
+  width: 650px;
+  margin-left: 32%;
+  box-shadow: 10px 10px lightgray;
+}
+
+.h1 {
+  text-align: center;
+  font-size: smaller;
+}
+
+.box2 {
+  padding-top: 2%;
+}
+
+.image {
+  height: 400px;
+  width: 250px;
+  float: right;
+  margin-right: 3%;
+  margin-top: 4%;
+  padding: 2%;
+}
+
+.text {
+  margin-top: 7.5%;
+  margin-left: 2%;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: smaller;
+}
+
+.h2 {
+  margin-left: 2%;
+  font-size: large;
+  color: orange;
+}
+
+.text2 {
+  margin-left: 2%;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: smaller;
+  margin-right: 3%;
+}
+
+.bottom {
+  margin-top: 16%;
+  background-color: black;
+  width: 650px;
+  height: 30px;
+}
+
+.text3 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: smaller;
+  margin-left: 2.5%;
+  padding-top: 1%;
+}
