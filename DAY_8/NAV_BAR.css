@@ -1,0 +1,54 @@
+.background {
+  background-image: url(62624.jpg);
+  background-size: cover;
+}
+
+.nav {
+  width: 1500px;
+  height: 80px;
+  background-color: brown;
+  padding: 1%;
+}
+
+.heading {
+  color: #ffdd00;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  float: right;
+  margin-right: 75%;
+  margin-top: 2%;
+  font-size: larger;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffdd00;
+}
+
+.heading2 {
+  color: #ffdd00;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  float: right;
+  margin-right: 67%;
+  margin-top: -3%;
+  font-size: larger;
+}
+
+.heading3 {
+  color: #ffdd00;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  float: right;
+  margin-right: 59%;
+  margin-top: -3%;
+  font-size: larger;
+}
+
+.gurantee {
+  position: absolute;
+  z-index: 1;
+  top: 600px;
+  left: 300px;
+}
+.slider {
+  z-index: 1;
+  position: relative;
+}

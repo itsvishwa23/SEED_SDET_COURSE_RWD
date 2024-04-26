@@ -1,0 +1,23 @@
+.disp {
+  display: inline;
+}
+
+.disp:hover {
+  display: none;
+}
+
+.visp {
+  visibility: visible;
+}
+
+.visp:hover {
+  visibility: hidden;
+}
+
+.pos {
+  vertical-align: middle;
+}
+
+.box {
+  color: rgb(1, 243, 243);
+}

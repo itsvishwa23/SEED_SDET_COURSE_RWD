@@ -1,0 +1,65 @@
+.box1 {
+  background-color: rgb(204, 204, 4);
+  padding: 40px;
+  width: 272px;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
+.box1:hover {
+  border-radius: 30px;
+}
+.box1 {
+  background-color: rgb(204, 204, 4);
+  padding: 40px;
+  width: 272px;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
+.box1:hover {
+  border-radius: 30px;
+}
+.box2 {
+  background-color: rgb(64, 36, 3);
+  padding: 40px;
+  width: 272px;
+  position: absolute;
+  top: 50px;
+  right: 30px;
+}
+
+.box2:hover {
+  border-radius: 30px;
+}
+.box3 {
+  background-color: rgb(85, 3, 144);
+  padding: 40px;
+  width: 272px;
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+}
+
+.box3:hover {
+  border-radius: 30px;
+}
+.box4 {
+  background-color: rgb(208, 10, 10);
+  padding: 40px;
+  width: 272px;
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+
+.box4:hover {
+  border-radius: 30px;
+}
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
