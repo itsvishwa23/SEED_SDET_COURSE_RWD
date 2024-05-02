@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 12</title>
+    <link rel="Stylesheet" type="text/css" href="DAY_12.css" />
+  </head>
+  <body>
+    <button id="btn" onclick="demo()">getElementById</button>
+    <button name="btn2" onclick="demo2()">getElementByName</button>
+    <button onclick="demo3()">getElementByTagName</button>
+    <button class="btn_cls" onclick="demo4()">getElementByClassName</button>
+    <p id="para1">Example of write</p>
+    <button onclick="Wrt()">Click Here</button>
+  </body>
+  <script>
+    function demo() {
+      var btn = document.getElementById("btn");
+      alert("This is example of document getElementById ");
+    }
+
+    function demo2() {
+      var btn = document.getElementsByName("btn2");
+      alert("This is example of document getElementsByName ");
+    }
+
+    function demo3() {
+      var btn = document.getElementsByTagName("button")[2].innerHTML;
+      alert("says : " + btn);
+    }
+
+    function demo4() {
+      var btn = document.getElementsByClassName("btn_cls")[2];
+      alert("This is example of document getElementsByClassName");
+    }
+
+    function Wrt() {
+      var pr = document.getElementById("para1");
+      pr.innerHTML = "This is changed";
+    }
+  </script>
+</html>
