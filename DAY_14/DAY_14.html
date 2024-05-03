@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="DAY_14.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>Personal Details</legend>
+      <form action="THANKS.html" onsubmit="return validation()">
+        <p>
+          Name:
+          <input type="text" id="name" />
+          <span id="name_error" class="error"></span>
+        </p>
+        <p>
+          Phone:
+          <input type="text" id="phone" />
+          <span id="phone_error" class="error"></span>
+        </p>
+        <p>
+          Designation:
+          <input type="text" id="designation" />
+          <span id="designation_error" class="error"></span>
+        </p>
+        <input type="submit" value="Submit" />
+        <button onclick="location.reload();">Clear</button>
+      </form>
+    </fieldset>
+  </body>
+  <script src="DAY_14.js"></script>
+</html>

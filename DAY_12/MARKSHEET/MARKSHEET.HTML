@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Marksheet</title>
+    <link rel="stylesheet" type="text/css" href="marksheet.css" />
+  </head>
+
+  <script src="marksheet.js"></script>
+  <body class="bground" onload="hide_table()">
+    <fieldset class="fld">
+      <form id="frm">
+        <h2>Enter Personal Details:</h2>
+        Name of the Student:
+        <input type="text" id="Name" />
+        Roll No:
+        <input type="text" id="Roll" />
+        Class:
+        <input type="text" id="Class" />
+        Div:
+        <input type="text" id="Div" />
+        <hr />
+        <h2>Enter Academic Details:</h2>
+        English Marks:
+        <input type="text" id="eng" />
+        Marathi Marks:
+        <input type="text" id="Mar" />
+        Hindi Marks:
+        <input type="text" id="Hin" />
+        History Marks:
+        <input type="text" id="his" /><br /><br />
+        Geography Marks:
+        <input type="text" id="geog" />
+        PT Marks:
+        <input type="text" id="pt" />
+        <hr />
+        <button id="Calculate" class="Calculate" onclick="Calc()">
+          Calculate Percentage
+        </button>
+        <button id="Clear" class="Clear">Clear</button>
+      </form>
+    </fieldset>
+    <fieldset class="fld2">
+      <table id="tb1">
+        <tr>
+          <td>Name of the Student:</td>
+          <td id="Name_Show" class="text"></td>
+        </tr>
+        <tr>
+          <td>Roll No:</td>
+          <td id="Roll_no_Show" class="text"></td>
+        </tr>
+        <tr>
+          <td>Class:</td>
+          <td id="Class_Show" class="text"></td>
+        </tr>
+        <tr>
+          <td>Div:</td>
+          <td id="Div_Show" class="text"></td>
+        </tr>
+
+        <tr>
+          <td>English Marks:</td>
+          <td id="Eng_Show" class="text"></td>
+        </tr>
+
+        <tr>
+          <td>Marathi Marks:</td>
+          <td id="Mar_Show" class="text"></td>
+        </tr>
+        <tr>
+          <td>Hindi Marks:</td>
+          <td id="Hin_Show" class="text"></td>
+        </tr>
+        <tr>
+          <td>History Marks:</td>
+          <td id="His_Show" class="text"></td>
+        </tr>
+        <tr>
+          <td>Geography Marks:</td>
+          <td id="Geog_Show" class="text"></td>
+        </tr>
+        <tr>
+          <td>PT Marks:</td>
+          <td id="PT_Show" class="text"></td>
+        </tr>
+        <tr>
+          <td class="Percentage">Percentage:</td>
+          <td id="Per_Show" class="text"></td>
+        </tr>
+      </table>
+    </fieldset>
+  </body>
+</html>
