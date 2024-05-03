@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="JQuey_Para_Demo.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>JQuery Demo</legend>
+      <p id="para1">
+        Adipisicing consectetur ex tempor nulla incididunt ullamco in velit culpa. Deserunt eu anim velit et ea eiusmod laborum Lorem culpa ipsum quis. Non sit reprehenderit proident consequat amet cillum commodo deserunt duis et non exercitation. Cupidatat quis eu cillum fugiat et aliquip nostrud ut ex. Est eiusmod qui ipsum fugiat reprehenderit sunt laborum ut.
+
+    <div id="more" class="more">More</div>
+      </p>
+      <p class="para2" id="para2">
+        Adipisicing consectetur ex tempor nulla incididunt ullamco in velit culpa. Deserunt eu anim velit et ea eiusmod laborum Lorem culpa ipsum quis. Non sit reprehenderit proident consequat amet cillum commodo deserunt duis et non exercitation. Cupidatat quis eu cillum fugiat et aliquip nostrud ut ex. Est eiusmod qui ipsum fugiat reprehenderit sunt laborum ut.
+
+        <div id="less" class="more">Less</div>
+      </p>
+    
+    </fieldset>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+    
+       
+        $("#more").click(function () {
+          $("#para2").show(150);
+          $("#more").hide(150);
+          $("#less").show(150);
+        });
+
+        $("#less").click(function () {
+          $("#para2").hide(150);
+          $("#more").show(150);
+          $("#less").hide(150);
+        });
+        
+          
+      
+    </script>
+  </body>
+</html>
