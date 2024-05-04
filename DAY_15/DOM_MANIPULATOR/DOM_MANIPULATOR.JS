@@ -9,3 +9,7 @@ $("#text").click(function () {
   alert("The Text is" + text);
   $("#showp2").text(text);
 });
+
+$("#img_btn").click(function () {
+  $("#img").attr("src", "https://picsum.photos/seed/picsum/200/300");
+});

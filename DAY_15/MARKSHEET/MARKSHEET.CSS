@@ -1,0 +1,15 @@
+.bground {
+  background-image: url("bg.png");
+  background-repeat: repeat;
+}
+
+.back {
+  background-color: rgb(241, 241, 241);
+  padding: 25px;
+  width: 250px;
+}
+
+.text {
+  padding: 5px;
+  margin: 5px;
+}
