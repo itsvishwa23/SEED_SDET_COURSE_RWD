@@ -19,6 +19,9 @@ $(document).ready(function () {
     var total = english + maths + hindi + marathi;
 
     var per = (total / 400) * 100;
-    $("#show").text(per + "%");
+    $("#show").text(per);
+    $("#show").append("%");
+
+    $("#show").prepend("Your percentage is:");
   });
 });
